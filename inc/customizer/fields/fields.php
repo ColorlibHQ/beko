@@ -14,10 +14,10 @@
  ***********************************/
 
  // Theme color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_theme_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Theme Color', 'beko' ),
         'description' => esc_html__( 'Select the theme color.', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
@@ -28,10 +28,10 @@ Epsilon_Customizer::add_field(
 
 
 // Header booking button field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_header_btn',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Header button show/hide', 'beko' ),
         'section'     => 'beko_header_section',
         'default'     => true
@@ -39,7 +39,7 @@ Epsilon_Customizer::add_field(
 );
 
 // Booking button label
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'header_btn_label',
     array(
         'type'              => 'text',
@@ -51,7 +51,7 @@ Epsilon_Customizer::add_field(
 );
 
 // Booking button url
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'booking_btn_url',
     array(
         'type'              => 'text',
@@ -63,10 +63,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Booking button hover background color
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_booking_btn_bg_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header Button Hover BG Color', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'beko_header_section',
@@ -75,10 +75,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header color sections
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'header_color_section',
     array(
-        'type'        => 'epsilon-separator',
+        'type'        => 'colorlib-separator',
         'label'       => esc_html__( 'Header Color Section', 'beko' ),
         'section'     => 'beko_header_section',
 
@@ -87,10 +87,10 @@ Epsilon_Customizer::add_field(
 
  
 // Header background color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_header_bg_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Sticky Header BG Color', 'beko' ),
         'description' => esc_html__( 'Select the header background color.', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
@@ -100,10 +100,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header nav menu color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_header_menu_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header menu color', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'beko_header_section',
@@ -112,10 +112,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header nav menu hover color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_header_menu_hover_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header menu hover border color', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'beko_header_section',
@@ -124,10 +124,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header dropdown menu color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_header_drop_menu_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Dropdown menu color', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'beko_header_section',
@@ -136,10 +136,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header dropdown menu hover color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_header_drop_menu_hover_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Dropdown menu hover color', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'beko_header_section',
@@ -153,7 +153,7 @@ Epsilon_Customizer::add_field(
  ***********************************/
  
 // Post excerpt length field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_excerpt_length',
     array(
         'type'        => 'text',
@@ -166,28 +166,28 @@ Epsilon_Customizer::add_field(
 );
 
 // Blog single page social share icon
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_blog_meta',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Blog page post meta show/hide', 'beko' ),
         'section'     => 'beko_blog_section',
         'default'     => true
     )
 );
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_like_btn',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Blog Single Page Like Button show/hide', 'beko' ),
         'section'     => 'beko_blog_section',
         'default'     => true
     )
 );
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_blog_share',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Blog Single Page Share show/hide', 'beko' ),
         'section'     => 'beko_blog_section',
         'default'     => true
@@ -200,7 +200,7 @@ Epsilon_Customizer::add_field(
  ***********************************/
 
 // 404 text #1 field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_fof_titleone',
     array(
         'type'              => 'text',
@@ -211,7 +211,7 @@ Epsilon_Customizer::add_field(
     )
 );
 // 404 text #2 field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_fof_titletwo',
     array(
         'type'              => 'text',
@@ -222,10 +222,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // 404 text #1 color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_fof_textone_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( '404 Text #1 Color', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'beko_fof_section',
@@ -233,10 +233,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // 404 text #2 color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_fof_texttwo_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( '404 Text #2 Color', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'beko_fof_section',
@@ -249,10 +249,10 @@ Epsilon_Customizer::add_field(
  ***********************************/
 
 // Footer Widget section
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'footer_widget_separator',
     array(
-        'type'        => 'epsilon-separator',
+        'type'        => 'colorlib-separator',
         'label'       => esc_html__( 'Footer Widget Section', 'beko' ),
         'section'     => 'beko_footer_section',
 
@@ -260,10 +260,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer widget toggle field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_footer_widget_toggle',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Footer widget show/hide', 'beko' ),
         'description' => esc_html__( 'Toggle to display footer widgets.', 'beko' ),
         'section'     => 'beko_footer_section',
@@ -272,10 +272,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer Copyright section
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_footer_copyright_separator',
     array(
-        'type'        => 'epsilon-separator',
+        'type'        => 'colorlib-separator',
         'label'       => esc_html__( 'Footer Copyright Section', 'beko' ),
         'section'     => 'beko_footer_section',
         'default'     => true,
@@ -287,10 +287,10 @@ Epsilon_Customizer::add_field(
 // Copy right text
 $url = 'https://colorlib.com/';
 $copyText = sprintf( __( 'Theme by %s colorlib %s Copyright &copy; %s  |  All rights reserved.', 'beko' ), '<a target="_blank" href="' . esc_url( $url ) . '">', '</a>', date( 'Y' ) );
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_footer_copyright_text',
     array(
-        'type'        => 'epsilon-text-editor',
+        'type'        => 'colorlib-text-editor',
         'label'       => esc_html__( 'Footer copyright text', 'beko' ),
         'section'     => 'beko_footer_section',
         'default'     => wp_kses_post( $copyText ),
@@ -298,10 +298,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Social Profile section
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'social_pro_separator',
     array(
-        'type'        => 'epsilon-separator',
+        'type'        => 'colorlib-separator',
         'label'       => esc_html__( 'Social Profile Section', 'beko' ),
         'section'     => 'beko_footer_section',
         'default'     => true,
@@ -310,10 +310,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Social Profile Show/Hide
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_social_profile_toggle',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Social Profile Show/Hide', 'beko' ),
         'section'     => 'beko_footer_section',
         'default'     => true,
@@ -321,10 +321,10 @@ Epsilon_Customizer::add_field(
 );
 
 //Social Profile links
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
 	'beko_header_social',
 	array(
-		'type'         => 'epsilon-repeater',
+		'type'         => 'colorlib-repeater',
 		'section'      => 'beko_footer_section',
 		'label'        => esc_html__( 'Social Profile Links', 'beko' ),
         'button_label' => esc_html__( 'Add new social link', 'beko' ),
@@ -369,7 +369,7 @@ Epsilon_Customizer::add_field(
 			),
 			'social_icon'        => array(
 				'label'   => esc_html__( 'Icon', 'beko' ),
-				'type'    => 'epsilon-icon-picker',
+				'type'    => 'colorlib-icon-picker',
 				'default' => 'fa fa-twitter',
 			),
 			
@@ -378,10 +378,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer widget text color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_footer_widget_text_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Text Color', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'beko_footer_section',
@@ -390,10 +390,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer widget title color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_footer_widget_title_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Widget Title Color', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'beko_footer_section',
@@ -402,10 +402,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer widget anchor color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_footer_widget_anchor_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Anchor Color', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'beko_footer_section',
@@ -414,10 +414,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer widget anchor hover color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'beko_footer_widget_anchor_hover_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Anchor Hover Color', 'beko' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'beko_footer_section',

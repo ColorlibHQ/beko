@@ -120,9 +120,7 @@
 	// Customizer
 	require_once( BEKO_DIR_PATH_INC . 'customizer/customizer.php' );
 	// Class autoloader
-	require_once( BEKO_DIR_PATH_INC . 'class-epsilon-dashboard-autoloader.php' );
 	// Class beko dashboard
-	require_once( BEKO_DIR_PATH_INC . 'class-epsilon-init-dashboard.php' );
 	// Common css
 	require_once( BEKO_DIR_PATH_INC . 'beko-commoncss.php' );
 
@@ -215,3 +213,11 @@ if ( ! function_exists( 'beko_modern_supports' ) ) {
 	}
 	add_action( 'after_setup_theme', 'beko_modern_supports', 20 );
 }
+
+/**
+ * The theme's Customizer controls.
+ *
+ * Replaces the Epsilon framework: same fields and stored values,
+ * built on core's Customizer API.
+ */
+require_once get_template_directory() . '/inc/customizer/colorlib-customizer/colorlib-customizer.php';
