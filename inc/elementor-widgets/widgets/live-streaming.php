@@ -249,7 +249,7 @@ class Beko_Live_Streaming extends Widget_Base {
                 echo '<div class="extends_video">';
                     echo '<a id="play-video_'.esc_attr( $counter ).'" class="video-play-button popup-youtube"
                     href="'.esc_url( $video_url ).'">
-                        <span class="fa fa-play"></span>
+                        <span class="fa-solid fa-play"></span>
                     </a>';
                 echo '</div>';
             ?>
@@ -314,8 +314,8 @@ class Beko_Live_Streaming extends Widget_Base {
                     autoplayTimeout: 5000,
                     nav: true,
                     navText: [
-                        '<i class="fa fa-caret-left"></i>',
-                        '<i class="fa fa-caret-right"></i>'
+                        '<i class="fa-solid fa-caret-left"></i>',
+                        '<i class="fa-solid fa-caret-right"></i>'
                     ],
                     margin: 15,
                     responsive: {
