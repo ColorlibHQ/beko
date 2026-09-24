@@ -10,7 +10,7 @@
 add_action( 'wp_enqueue_scripts', 'beko_sl_enqueue_scripts' );
 function beko_sl_enqueue_scripts() {
 
-	wp_enqueue_script( 'beko-post-likes', BEKO_DIR_JS_URI . 'post-likes.js', array( 'jquery' ), '0.5', false );
+	wp_enqueue_script( 'beko-post-likes', BEKO_DIR_JS_URI . 'post-likes.js', array( 'beko-ui-js' ), '0.5-s2', true );
 
 	wp_localize_script( 'beko-post-likes', 'simpleLikes', array(
 		'ajaxurl' => admin_url( 'admin-ajax.php' ),

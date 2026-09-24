@@ -207,33 +207,12 @@ class Beko_Upcomming_War extends Widget_Base {
         if( \Elementor\Plugin::$instance->editor->is_edit_mode() === true  ) {
         ?>
         <script>
-        ( function( $ ){
-            function makeTimer() {
-                var warDate = $('.upcomming_war_counter').data('war-date');	
-                var endTime = new Date( warDate );
-                endTime = (Date.parse(endTime) / 1000);
-
-                var now = new Date();
-                now = (Date.parse(now) / 1000);
-
-                var timeLeft = endTime - now;
-
-                var days = Math.floor(timeLeft / 86400);
-                var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
-
-                if (hours < "10") {
-                hours = "0" + hours;
-                }
-
-                $("#days").html(days + "<span>Days</span>");
-                $("#hours").html(hours + "<span>Hours</span>");
-
-                setInterval(function () {
-                    makeTimer();
-                }, 1000);
-            }
-
-        })(jQuery);
+        (function () {
+            // Editor preview: nothing to start here. custom.js looks the
+            // countdown up again every second, so it also fills a widget the
+            // editor renders later. (The old inline script only defined a
+            // makeTimer() that was never called.)
+        })();
         </script>
         <?php 
         }

@@ -301,11 +301,11 @@ class Beko_Live_Streaming extends Widget_Base {
         if( \Elementor\Plugin::$instance->editor->is_edit_mode() === true  ) {
         ?>
         <script>
-        ( function( $ ){
-            $(document).ready(function() {
-                var review = $('.live_stareams_slide');
-                if (review.length) {
-                    review.owlCarousel({
+        (function () {
+            function run() {
+                var UI = window.ColorlibUI;
+                if (!UI) return;
+                UI.owl('.live_stareams_slide', {
                     items: 2,
                     loop: true,
                     dots: false,
@@ -320,27 +320,30 @@ class Beko_Live_Streaming extends Widget_Base {
                     margin: 15,
                     responsive: {
                         0: {
-                        items: 1,
-                        margin: 15,
+                            items: 1,
+                            margin: 15
                         },
                         600: {
-                        items: 1,
-                        margin: 15,
+                            items: 1,
+                            margin: 15
                         },
                         991: {
-                        items: 1,
-                        margin: 15,
+                            items: 1,
+                            margin: 15
                         },
                         1200: {
-                        items: 2,
-                        margin: 15,
+                            items: 2,
+                            margin: 15
                         }
                     }
-                    });
-                }
-
-            });
-        })(jQuery);
+                });
+            }
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', run);
+            } else {
+                run();
+            }
+        })();
         </script>
         <?php 
         }
