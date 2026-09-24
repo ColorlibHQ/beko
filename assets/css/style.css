@@ -2898,7 +2898,7 @@ body.blog .body_bg, body.archive .body_bg, body.single .body_bg, body.search .bo
 
 /* line 3, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
 .Latest_War .Latest_War_text {
-  background-image: url("../img/latest_war_img.png");
+  background-image: url("../img/latest_war_img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2961,7 +2961,7 @@ body.blog .body_bg, body.archive .body_bg, body.single .body_bg, body.search .bo
 
 /* line 54, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
 .Latest_War .Latest_War_bg_1 {
-  background-image: url("../img/latest_war_img_1.png");
+  background-image: url("../img/latest_war_img_1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4059,7 +4059,6 @@ body.blog .body_bg, body.archive .body_bg, body.single .body_bg, body.search .bo
 /************** cta part css ****************/
 /* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_cta_part.scss */
 .cta_part {
-  background-image: url("../img/cta_bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5341,12 +5340,6 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #f1f1f1;
 }
 
-/* line 798, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
-.primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
-  border: none;
-}
-
 /* line 806, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .confirm-checkbox {
   width: 16px;
@@ -5381,12 +5374,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   cursor: pointer;
   border: 1px solid #f1f1f1;
-}
-
-/* line 835, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
-.confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
-  border: none;
 }
 
 /* line 843, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
@@ -5431,12 +5418,6 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 3;
 }
 
-/* line 876, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
-.disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
-  border: none;
-}
-
 /* line 884, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .primary-radio {
   width: 16px;
@@ -5473,12 +5454,6 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #f1f1f1;
 }
 
-/* line 913, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
-.primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
-  border: none;
-}
-
 /* line 921, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .confirm-radio {
   width: 16px;
@@ -5513,12 +5488,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid #f1f1f1;
-}
-
-/* line 950, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
-.confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
-  border: none;
 }
 
 /* line 958, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
@@ -5561,12 +5530,6 @@ h1, h2, h3, h4, h5, h6 {
 .disabled-radio input:disabled {
   cursor: not-allowed;
   z-index: 3;
-}
-
-/* line 991, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
-.disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
-  border: none;
 }
 
 /* line 999, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
@@ -6148,14 +6111,6 @@ h1, h2, h3, h4, h5, h6 {
 /* line 185, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_contact.scss */
 .modal-message .modal-dialog .modal-content .modal-header p {
   display: block;
-}
-
-/* line 1, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_breadcrumb.scss */
-.breadcrumb_bg {
-  background-image: url("../img/breadcrumb.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* line 5, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_breadcrumb.scss */
