@@ -183,7 +183,6 @@ if ( !class_exists( 'Beko_El_Widgets' ) ) {
             add_action( 'elementor/elements/categories_registered', [ $this, 'add_elementor_category' ] );
             add_action( 'elementor/frontend/after_enqueue_styles', [ $this, 'register_widget_styles' ] );
             add_action( 'elementor/frontend/after_register_styles', [ $this, 'register_widget_styles' ] );
-            // add_action( 'elementor/frontend/after_enqueue_scripts', [ $this, 'frontend_assets_scripts' ] );
             add_action( 'elementor/editor/before_enqueue_scripts', [ $this, 'register_widget_styles' ] );
 
             // Register New Widgets
@@ -192,11 +191,6 @@ if ( !class_exists( 'Beko_El_Widgets' ) ) {
             // Beko Companion enqueue style and scripts
             add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_element_widgets_scripts' ] );
 
-        }
-
-
-        public function frontend_assets_scripts(){
-            wp_enqueue_script('beko-counterup-scripts', BEKO_DIR_ELEMENTOR . 'assets/js/timer.js', array('jquery', 'loopcounter-js'), time(), true);
         }
 
 
